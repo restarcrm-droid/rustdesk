@@ -23,6 +23,7 @@ mod he;
 mod hi;
 mod hr;
 mod hu;
+mod hy;
 mod id;
 mod it;
 mod ja;
@@ -73,6 +74,7 @@ pub const LANGS: &[(&str, &str)] = &[
     ("bg", "Български"),
     ("be", "Беларуская"),
     ("ru", "Русский"),
+    ("hy", "Հայերեն"),
     ("sk", "Slovenčina"),
     ("id", "Indonesia"),
     ("cs", "Čeština"),
@@ -200,6 +202,7 @@ pub fn translate_locale(name: String, locale: &str) -> String {
         "eu" => eu::T.deref(),
         "hu" => hu::T.deref(),
         "ru" => ru::T.deref(),
+        "hy" => hy::T.deref(),
         "eo" => eo::T.deref(),
         "id" => id::T.deref(),
         "br" => pt_BR::T.deref(),

@@ -659,6 +659,7 @@ List<Locale> supportedLocales = const [
   Locale('hu'),
   Locale('pt'),
   Locale('ru'),
+  Locale('hy'),
   Locale('sk'),
   Locale('id'),
   Locale('da'),
