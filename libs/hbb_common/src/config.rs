@@ -80,9 +80,16 @@ lazy_static::lazy_static! {
     pub static ref DEFAULT_LOCAL_SETTINGS: RwLock<HashMap<String, String>> =
         RwLock::new(HashMap::from([("lang".to_owned(), "hy".to_owned())]));
     pub static ref OVERWRITE_LOCAL_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
-    pub static ref HARD_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
+    pub static ref HARD_SETTINGS: RwLock<HashMap<String, String>> =
+        RwLock::new(HashMap::from([("disable-account".to_owned(), "Y".to_owned())]));
     pub static ref BUILTIN_SETTINGS: RwLock<HashMap<String, String>> =
-        RwLock::new(HashMap::from([("hide-powered-by-me".to_owned(), "Y".to_owned())]));
+        RwLock::new(HashMap::from([
+            ("hide-powered-by-me".to_owned(), "Y".to_owned()),
+            ("hide-network-settings".to_owned(), "Y".to_owned()),
+            ("hide-server-settings".to_owned(), "Y".to_owned()),
+            ("hide-proxy-settings".to_owned(), "Y".to_owned()),
+            ("hide-websocket-settings".to_owned(), "Y".to_owned()),
+        ]));
 }
 
 #[cfg(target_os = "android")]

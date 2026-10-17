@@ -397,7 +397,7 @@ class _DesktopHomePageState extends State<DesktopHomePage>
         children: [
           Column(
             children: [
-              if (!isOutgoingOnly)
+              if (false)
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(

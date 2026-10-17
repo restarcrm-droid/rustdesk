@@ -484,7 +484,7 @@ class AbModel {
         }
         if (hasSynced) {
           BotToast.showText(
-              contentColor: Colors.lightBlue,
+              contentColor: Color(0xFFFD9E1B),
               text: translate('synced_peer_readded_tip'));
           _syncAllFromRecent = true;
         }

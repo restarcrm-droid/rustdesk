@@ -145,7 +145,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Failed to make direct connection to remote desktop", "Չհաջողվեց ուղիղ միանալ հեռակա համակարգչին"),
         ("Set Password", "Սահմանել գաղտնաբառ"),
         ("OS Password", "ՕՀ-ի գաղտնաբառ"),
-        ("install_tip", "UAC-ի պատճառով RustDesk-ը որոշ դեպքերում չի կարող ճիշտ աշխատել որպես հեռակա կողմ։ UAC-ից խուսափելու համար սեղմեք ստորև կոճակը՝ RustDesk-ը համակարգում տեղադրելու համար։"),
+        ("install_tip", "Տեղադրեք ծրագիրը այս համակարգչում։"),
         ("Click to upgrade", "Սեղմեք թարմացնելու համար"),
         ("Configure", "Կարգավորել"),
         ("config_acc", "Ձեր համակարգիչը հեռակա կառավարելու համար պետք է RustDesk-ին տալ «Մատչելիություն» թույլտվություն։"),
