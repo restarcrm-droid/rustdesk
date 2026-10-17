@@ -29,7 +29,7 @@ native-windows-gui = {version = "1.0", default-features = false, features = ["an
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2026 Purslane Tech Pte. Ltd. All rights reserved."
 ProductName = "hayDesk SFT"
-OriginalFilename = "hayDesk SFT.exe"
+OriginalFilename = "hayDesk-SFT.exe"
 CompanyName = "Softtun"
 FileDescription = "hayDesk SFT Remote Desktop"
 #ProductVersion = ""
